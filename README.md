@@ -21,27 +21,30 @@
 
 ## O que é o Coffee Delivery?
 
-<b>Coffee Delivery</b> é o segundo desafio do Ignite da Trilha de ReactJS atualizada criado pela [Rocketseat](https://rocketseat.com.br).
-É uma loja de café online para você comprar através de Delivery.
+O projeto Coffee Delivery é uma loja de café online que oferece a conveniência de entrega dos produtos diretamente na casa dos clientes. A aplicação foi desenvolvida utilizando diversas tecnologias e ferramentas para garantir uma experiência completa e amigável para o usuário.
 
 ## Funcionalidades
 
-A aplicação conta com 3 telas sendo a primeira uma tela de apresentação e também de listagem dos cafés disponíveis.
-Na segunda tela, o usuário precisa preencher um formulário com seus dados de endereço e ao lado direito é possível visualizar os itens do carrinho, 
-podendo alterar a quantidade ou remover o mesmo. Na terceira e última tela, é exibido uma confirmação do pedido e também os detalhes de entrega da compra.
+As funcionalidades do projeto Coffee Delivery incluem três telas principais:
+
+- Tela de apresentação e listagem de cafés disponíveis: Nessa tela, os usuários podem visualizar os diferentes tipos de café disponíveis para compra. As informações dos cafés são exibidas, como nome, descrição e preço.
+
+- Tela de preenchimento de formulário: Nessa tela, o usuário precisa preencher um formulário com seus dados de endereço para a entrega do pedido. Ao lado direito do formulário, é exibido o carrinho de compras, onde o usuário pode visualizar os itens selecionados, alterar a quantidade ou remover itens.
+
+- Tela de confirmação do pedido: Nessa tela final, é exibida uma confirmação do pedido feito pelo usuário, mostrando os detalhes da compra, como itens selecionados, preço total e informações de entrega.
 
 ## Tecnologias
 
-Foram utilizadas as seguintes tecnologias e ferramentas:
+As principais tecnologias utilizadas no projeto são as seguintes:
 
-- [Vite](https://vitejs.dev)
-- [Styled Components](https://styled-components.com)
-- [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Context API](https://reactjs.org/docs/context.html)
-- [React Router Dom](https://v5.reactrouter.com)
-- [React Hook Form](https://react-hook-form.com)
-- [Validações de formulário com Zod](https://zod.dev)
+- [Vite](https://vitejs.dev): Um framework de desenvolvimento web que permite a criação rápida e eficiente de aplicativos React.
+- [Styled Components](https://styled-components.com): Uma biblioteca que permite escrever estilos CSS dentro do próprio código JavaScript, facilitando a estilização dos componentes.
+- [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage): Uma ferramenta de armazenamento local no navegador, utilizada para salvar informações do usuário, como preferências de café ou histórico de pedidos.
+- [TypeScript](https://www.typescriptlang.org/): Uma linguagem de programação que adiciona tipagem estática ao JavaScript, proporcionando maior segurança e facilidade de manutenção ao código.
+- [Context API](https://reactjs.org/docs/context.html): Uma API do React que permite o compartilhamento de dados entre componentes sem a necessidade de passar props manualmente, facilitando a comunicação entre diferentes partes da aplicação.
+- [React Router Dom](https://v5.reactrouter.com): Uma biblioteca que facilita a navegação entre páginas ou telas em um aplicativo React.
+- [React Hook Form](https://react-hook-form.com): Uma biblioteca que simplifica o gerenciamento de formulários no React, oferecendo recursos como validação, manipulação de dados e controle de estado.
+- [Validações de formulário com Zod](https://zod.dev): Zod é uma biblioteca de validação de esquema que pode ser usada para validar e tipar dados de entrada em formulários. Ela ajuda a garantir que os dados fornecidos pelo usuário estejam corretos e adequados antes de serem processados.
 
 ## Como executar?
 
